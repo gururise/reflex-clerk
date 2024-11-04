@@ -1,6 +1,6 @@
 # clerk
 
-A Reflex custom component clerk.
+A Reflex custom component clerk. [Updated for Reflex 0.6.0+]
 
 ## Installation
 
@@ -48,6 +48,13 @@ With this setup, you'll have a page that displays a sign-in button powered by Cl
 components, such as user profile information, sign-out buttons, and more, within the clerk_provider.
 
 Further documentation can be found in [the reference docs](docs/)
+
+## Build
+Suggest using a virtual environment
+
+1. `pip install -r requirements.txt`
+2. `pip install .[dev]`
+3. `python -m build`
 
 ## License
 
