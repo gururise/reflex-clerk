@@ -5,7 +5,9 @@ dist/
 .DS_Store
 .idea
 site/
+build/
 venv
+.venv
 .env
 .env.local
 .tool-versions
